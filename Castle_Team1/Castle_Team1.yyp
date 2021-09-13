@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"spr_dude","path":"sprites/spr_dude/spr_dude.yy",},"order":1,},
+    {"id":{"name":"spr_sword","path":"sprites/spr_sword/spr_sword.yy",},"order":1,},
     {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},"order":3,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"order":2,},
