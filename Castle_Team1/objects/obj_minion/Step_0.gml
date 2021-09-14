@@ -32,3 +32,5 @@ if(place_meeting(x, y+vsp , obj_floor)) {
 
 y = y + vsp;
 
+//When sprite changes direction
+if (hsp != 0) image_xscale = -sign(hsp);

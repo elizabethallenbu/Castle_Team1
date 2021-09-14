@@ -11,6 +11,7 @@
     {"id":{"name":"obj_minion","path":"objects/obj_minion/obj_minion.yy",},"order":3,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":4,},
     {"id":{"name":"obj_flames","path":"objects/obj_flames/obj_flames.yy",},"order":6,},
+    {"id":{"name":"spr_health","path":"sprites/spr_health/spr_health.yy",},"order":8,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_flames","path":"sprites/spr_flames/spr_flames.yy",},"order":7,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
