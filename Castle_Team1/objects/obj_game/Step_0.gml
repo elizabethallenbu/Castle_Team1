@@ -4,7 +4,7 @@ if(keyboard_check_pressed(vk_enter))
 	{ 
 		
 		case rm_start: 
-		room_goto(rm_game);
+		room_goto(rm_level1);
 		break; 
 		
 		case rm_win:
