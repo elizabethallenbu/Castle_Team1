@@ -6,4 +6,6 @@ with (other) {
 
 }
 
+score += 5;
+
 instance_destroy();
