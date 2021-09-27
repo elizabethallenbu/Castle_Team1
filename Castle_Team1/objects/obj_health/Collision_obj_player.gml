@@ -1,3 +1,3 @@
-health += 1;
+lives += 1;
 
 instance_destroy();

@@ -61,7 +61,7 @@ if(place_meeting(x, y+vsp , obj_floor)) {
 
 y = y + vsp;
 
-/*
+
 //animation
 if (!place_meeting(x, y+1, obj_floor)) {
 	
@@ -89,5 +89,6 @@ else {
 	}
 	
 }
-*/
-if (hsp != 0) image_xscale = sign(hsp); 
+
+
+if (hsp != 0) image_xscale = sign(hsp);
