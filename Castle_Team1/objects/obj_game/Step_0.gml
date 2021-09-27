@@ -5,7 +5,6 @@ if(keyboard_check_pressed(vk_enter))
 		
 		case rm_start: 
 		room_goto(rm_game);
-		audio_play_sound(snd_open, 2, true); 
 		break; 
 		
 		case rm_win:
