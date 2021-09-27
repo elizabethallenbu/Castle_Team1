@@ -32,6 +32,18 @@ if(place_meeting(x+hsp, y , obj_floor)) {
 
 }
 
+if(place_meeting(x+hsp, y , obj_wall)) {
+	
+	while (!place_meeting(x+sign(hsp), y, obj_wall)){
+		
+		x= x + sign(hsp);
+		
+	}
+	
+	hsp = 0;
+
+}
+
 x = x + hsp;
 
 //vertical collision
@@ -49,7 +61,34 @@ if(place_meeting(x, y+vsp , obj_floor)) {
 
 y = y + vsp;
 
-//When sprite changes direction
+
+//animation
+if (!place_meeting(x, y+1, obj_floor)) {
+	
+	sprite_index = spr_playerA;
+	image_speed = 0; 
+	
+	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
+	
+}
+
+else {
+	
+	image_speed = 0.5; 
+	
+	if (sign(hsp) == 0) {
+		
+		sprite_index = spr_player;
+	
+	}
+	
+	else {
+		
+		sprite_index = spr_playerR;	
+	
+	}
+	
+}
+
+
 if (hsp != 0) image_xscale = sign(hsp);
-
-
