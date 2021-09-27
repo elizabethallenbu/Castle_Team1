@@ -16,6 +16,7 @@ if (mouse_check_button(mb_left)) && (firingdelay < 0) {
 		speed = 10; 
 		direction = other.image_angle + random_range(-3, 3);
 		image_angle = direction; 
+		audio_play_sound (snd_arrow, 1, false); 
 	}
 	
 }
