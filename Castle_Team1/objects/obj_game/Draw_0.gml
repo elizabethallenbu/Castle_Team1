@@ -14,7 +14,7 @@ draw_set_halign(fa_center);
 	draw_text(room_width /2 , 200, 
 	@"Save the princess from the dragon to win!
 	
-	W/A: move
+	A/D: move
 	Space: Jump
 	Mouse: Aim
 	Mouse Left Click: Shoot
