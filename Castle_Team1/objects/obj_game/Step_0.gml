@@ -22,7 +22,7 @@ if(room == rm_level4) {
 	
 }
 
-if (lives <= 0) { 
+if (lives <= 0){ 
 	room_goto(rm_gameover);
 	audio_play_sound(snd_lose, 1, false); 
 } 

@@ -5,6 +5,8 @@ if (lives != 3 && lives >= 0) {
 else {
 	lives = 3;
 }
+
+
 if (health % 50 != 0 && health > 0) {
 	health = health;
 }
