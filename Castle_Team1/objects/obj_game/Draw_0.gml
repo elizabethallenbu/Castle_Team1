@@ -1,16 +1,13 @@
 var c = c_gray;
 draw_text_color(20, 20, "SCORE: " + string(score), c, c, c, c, 1);
+var c = c_gray;
+draw_text_color(20, 20, "SCORE: " + string(score), c, c, c, c, 1);
 draw_text_color(20, 40, "LIVES: " + string(lives), c, c, c, c, 1);
 draw_text_color(20, 60, "HEALTH: " + string(health), c, c, c, c, 1);
 
 
 switch ( room ) 
 { 
-case rm_game: 
-draw_text(20,20, "SCORE: " + string(score)); 
-draw_text(20, 40, "LIVES: " + string(lives)); 
-break; 
-
 case rm_start: 
 draw_set_halign(fa_center); 
 	var c = c_blue; 
@@ -50,17 +47,6 @@ draw_set_halign(fa_center);
 
 
 
-break ; 
+break ;
 
-
-
-
-
-
-
-
-
-
-
-} 
-
+}

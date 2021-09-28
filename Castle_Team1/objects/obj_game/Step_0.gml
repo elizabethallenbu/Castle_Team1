@@ -4,11 +4,8 @@ if(keyboard_check_pressed(vk_enter))
 	{ 
 		
 		case rm_start: 
-<<<<<<< HEAD
 		audio_play_sound(snd_open, 2, true); 
-=======
->>>>>>> parent of d2df124 (Sound additions)
-		room_goto(rm_game);
+		room_goto(rm_level1);
 		break; 
 		
 		case rm_win:
@@ -17,15 +14,17 @@ if(keyboard_check_pressed(vk_enter))
 			break;
 	}
 } 
-if(room == rm_game) { 
+if(room == rm_level4) { 
 	if score >= 1000  {  
 		room_goto(rm_win); 
+		audio_play_sound(snd_win, 1, false); 
 	} 
 	
 	
 		if (lives <= 0) { 
 		room_goto(rm_gameover);
+		audio_play_sound(snd_lose, 1, false); 
 	} 
 	
 	
-} 
+}
