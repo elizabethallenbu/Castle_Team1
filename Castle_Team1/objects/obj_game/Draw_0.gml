@@ -13,7 +13,7 @@ draw_set_halign(fa_center);
 	var c = c_blue; 
 	draw_text_transformed_colour (room_width / 2, 100, "Castle Game" , 3,3,0,c,c,c,c,1); 
 	draw_text(room_width /2 , 200, 
-	@"Score 1,000 points to win!
+	@"Save the princess from the dragon to win!
 	
 	UP: move 
 	LEFT/RIGHT: change direction

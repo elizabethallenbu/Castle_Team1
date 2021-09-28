@@ -1,7 +1,7 @@
 if(hp < 0) {
 	//needs work
 	repeat(20) {
-		with instance_create_layer(x, y, "fire", obj_fire_cool) {
+		with instance_create_layer(x, y, "flames", obj_fire_cool) {
 			image_angle = irandom_range (0, 359);
 			speed = -3;
 			direction = obj_minion_cool.image_angle;
